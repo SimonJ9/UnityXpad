@@ -1,12 +1,12 @@
 # UnityXpad
-Simple input manager for Xbox controllers, or other controllers supported by XInput. This is independent of Unity's native input system, so it won't affect the existing Unity input manager settings. I have experienced input conflicts with native Unity input system when using multiple controllers. 
+Simple input manager for controllers. This is independent of Unity's native input system, so it won't affect the existing Unity input manager settings. I have experienced input conflicts with native Unity input system when using multiple controllers, so I used XInput instead. It works on Windows 10 and Unity 2019 with Xbox controllers. It does not work with PS4 controllers. 
 
 Supports up to 4 controllers
 ![Demo Image](./RepoImg/Demo.png)
 
 If your target .Net version is not 4.x, replace the sharpdx and sharpdx.xinput library under Assets/Plugins with the correct version. Both libraries are available on Nuget. 
 
-##Sample Usage
+## Sample Usage
 
 Similar to native Unity input system. For example: 
 
